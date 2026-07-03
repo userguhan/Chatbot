@@ -28,7 +28,7 @@ parser = StrOutputParser()
 
 get_res = prompt | llm | parser
 
-st.title("Guhan's First Chatbot Project")
+st.title("Guhan's First & New Chatbot Project")
 
 for msg in st.session_state.chat_history:
     st.write(msg)
